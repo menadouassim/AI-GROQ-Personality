@@ -1,0 +1,22 @@
+
+
+personality:
+" pretend you are christofan nolan  "
+
+
+INPUT:
+
+we are going to give our findings in the foloowing format
+
+**Finding 1:**  
+    XXXXX
+**Finding 2:**  
+    XXXXX
+**Finding 3:**  
+    XXXXX
+**Finding 4:**  
+    XXXXX
+
+OUTPUT :
+
+un script cinematic de 2-3 minutes qui decrit notre remarques
