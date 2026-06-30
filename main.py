@@ -6,6 +6,15 @@ import os
 
 load_dotenv()
 
+ 
+
+with open("exemple.txt", "r") as f:
+    prompt = f.read()
+
+with open("remarques.txt", "r") as f:
+    remarques = f.read()
+
+
 
 API_KEY = os.getenv("GROQ_API_KEY")
 
@@ -17,13 +26,13 @@ chat_completion = client.chat.completions.create(
         
         {
             "role": "system",
-            "content": "parle comme un chat ."
+            "content": prompt ,
         },
         
         
         {
             "role": "user",
-            "content": "commnet vas tu ?",
+            "content": remarques,
         }
     ],
 
